@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Syed Uzair Jamal | Android Developer Portfolio</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      background-color: #f5f6fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .project {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-left: 5px solid #2e7d32;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .project h2 {
+      margin-top: 0;
+      color: #2e7d32;
+    }
+
+    .project p {
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #2e7d32;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .project {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>I am Syed Uzair Jamal</h1>
+
+  <header>
+    <h1>Syed Uzair Jamal</h1>
+    <p>Android Developer | Kotlin Enthusiast | Mobile UI/UX Craftsman</p>
+  </header>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h2>📚 Fantasy Novel App</h2>
+      <p>A dynamic reading application allowing users to explore a curated collection of fantasy novels. Includes genre-based filtering, bookmarking, and offline reading capabilities.</p>
+      <p><strong>Tech Stack:</strong> Kotlin, Jetpack Compose, Room DB, MVVM</p>
+    </div>
+
+    <div class="project">
+      <h2>🎓 Attendance App with Face Recognition</h2>
+      <p>Smart classroom attendance app integrating facial recognition to automatically mark presence. Uses on-device ML for detection and Firebase for real-time sync.</p>
+      <p><strong>Tech Stack:</strong> Kotlin, ML Kit (Face Detection), Firebase, CameraX</p>
+    </div>
+
+    <div class="project">
+      <h2>🚖 Ride Booking App (Customer & Driver)</h2>
+      <p>A dual-interface app for customers and drivers enabling seamless ride booking, real-time location tracking, in-app navigation, and wallet payment system.</p>
+      <p><strong>Tech Stack:</strong> Kotlin, Google Maps SDK, Firebase, Retrofit, LiveData</p>
+    </div>
+
+    <div class="project">
+      <h2>🛒 Electronic Mart (E-commerce App)</h2>
+      <p>Full-featured ecommerce platform to browse and purchase electronic items. Features include category filters, cart management, order history, and user profiles.</p>
+      <p><strong>Tech Stack:</strong> Kotlin, Jetpack Navigation, Firebase Firestore, Glide</p>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>📧 Contact: uzair.jamal@example.com | 🌐 LinkedIn / GitHub: @syeduzair</p>
+    <p>&copy; 2025 Syed Uzair Jamal. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
